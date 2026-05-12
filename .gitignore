@@ -1,0 +1,16 @@
+# Ignore all dotfiles / dot-directories by default
+.*
+
+# Allow the ignore file itself to be committed
+!.gitignore
+
+# Common Jupyter / Python noise (also covered by .* patterns, kept for clarity)
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Local run notes
+to_run_on_localhost.txt
